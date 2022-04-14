@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="formulario.css"
+      media="screen"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <div class="body">
+      <form>
+        <h1 id="title">FAÇA PARTE</h1>
+        <div class="divInput">
+          <label for="name"><strong>NOME COMPLETO</strong>*</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome..."
+            required
+          />
+        </div>
+
+        <div class="divInput">
+          <label for="email"><strong>E-MAIL</strong>*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail..."
+            required
+          />
+        </div>
+
+        <div class="divInput">
+          <label for="phone"><strong>TELEFONE/CELULAR</strong>*</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="(99) 99999-9999 "
+            required
+          />
+        </div>
+
+        <div class="divInput">
+          <label for="message"><strong>MENSAGEM DE TEXTO</strong>*</label>
+          <textarea
+            rows="6"
+            style="width: 26em"
+            id="message"
+            type="text"
+            name="messsage"
+            placeholder="Digite sua mensagem..."
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="button" type="submit" onsubmit="">ENVIAR</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
